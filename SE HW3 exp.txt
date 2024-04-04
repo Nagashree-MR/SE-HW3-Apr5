@@ -1,0 +1,8 @@
+The pattern used for the revised Minesweeper game is Singleton pattern because there is only one instance of the game created in the main method.
+
+Advantages:
+1.Gives a clean solution for creating only one instance of the Minesweeper game.
+2.Enhances maintainability because any changes or enhancements to the game can be done in a centralized manner, since there is only one instance of the game.
+
+Drawbacks:
+In this particular situation, using the Singleton pattern might be considered overkill since the game is relatively simple and does not require multiple instances.
